@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/configuration"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:minHeight="@dimen/common_height"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rotate_inertia"
+        android:id="@+id/textView" />
+
+    <RadioGroup
+        android:id="@+id/rotation_inertia"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inertia_0"
+            android:id="@+id/inertia_0"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inertia_50"
+            android:id="@+id/inertia_50"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inertia_100"
+            android:id="@+id/inertia_100"
+            android:checked="false" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_positive_button"
+            android:id="@+id/btn_commit" />
+    </RadioGroup>
+</LinearLayout>
