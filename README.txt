@@ -1,7 +1,5 @@
 ﻿==================================================
  README for "RICOH THETA v2.1 SDK for Android"
-
- Version :0.1.0
 ==================================================
 
 This file is an explanation document for RICOH THETA v2.1 SDK for Android.
@@ -43,8 +41,8 @@ This file is an explanation document for RICOH THETA v2.1 SDK for Android.
 
 * Required environment for development
 
-    [About RICOH THETA V]
-      Dedicated sample applications for the RICOH THETA V or above that meet the following conditions.
+    [About RICOH THETA]
+      Dedicated sample applications for the RICOH THETA V that meet the following conditions.
 
       * Hardware
           RICOH THETA V or above
@@ -59,8 +57,8 @@ This file is an explanation document for RICOH THETA v2.1 SDK for Android.
       * Verified operating environment
           Nexus 5X
       * Development/Build Environment
-          Android Studio 2.2.3
-          Android SDK (API Level 24)
+          Android Studio 3.5.3
+          Android SDK (API Level 26)
 
 ----------------------------------------
 
@@ -77,23 +75,7 @@ This file is an explanation document for RICOH THETA v2.1 SDK for Android.
     [More detailed information]
         See the contents of the provided sample program and Javadoc, as well as documents on the Internet for further information.
 
-        https://developers.theta360.com/en/docs/
-
-----------------------------------------
-
-* Latest information
-
-    The latest information is released on the "RICOH THETA Developers" website.
-
-    https://developers.theta360.com/
-
-----------------------------------------
-
-* Troubleshooting
-
-    FAQs are available on the forums.
-
-    https://developers.theta360.com/en/forums/viewforum.php?f=6
+        https://api.ricoh/products/theta-api/
 
 ----------------------------------------
 
@@ -105,9 +87,3 @@ This file is an explanation document for RICOH THETA v2.1 SDK for Android.
     * Wi-Fi is the trademark of Wi-Fi Alliance.
 
     All other trademarks belong to their respective owners.
-
-----------------------------------------
-
-* Update History
-
-    09/01/2017 0.1.0 Initial release
