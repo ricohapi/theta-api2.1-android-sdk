@@ -1,13 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 26
 
     defaultConfig {
         applicationId "com.theta360.sample.v2"
         minSdkVersion 14
-        targetSdkVersion 21
+        targetSdkVersion 26
         versionCode 2
         versionName "0.1.1"
     }
