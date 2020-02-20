@@ -42,10 +42,10 @@ This file is an explanation document for RICOH THETA v2.1 SDK for Android.
 * Required environment for development
 
     [About RICOH THETA]
-      Dedicated sample applications for the RICOH THETA V that meet the following conditions.
+      Dedicated sample applications for the RICOH THETA that meet the following conditions.
 
       * Hardware
-          RICOH THETA V or above
+          RICOH THETA V
       * Firmware
           * RICOH THETA V: Version 1.00.1 or above
           (Method for checking and updating the firmware:  https://theta360.com/en/support/manual/s/content/pc/pc_09.html)
