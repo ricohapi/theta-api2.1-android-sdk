@@ -1,7 +1,5 @@
 ﻿==================================================
  README for "RICOH THETA v2.1 SDK for Android"
-
- Version :0.1.0
 ==================================================
 
 このファイルはRICOH THETA v2.1 SDK for Androidに関する説明文書です。
@@ -43,11 +41,11 @@
 
 * 開発に必要な環境に関して
 
-    [ RICOH THETA Vについて ]
-      以下の条件を満たすRICOH THETA V以降の機種専用のサンプルアプリケーションです。
+    [ RICOH THETAについて ]
+      以下の条件を満たすRICOH THETA Vの機種専用のサンプルアプリケーションです。
 
       * ハードウェア
-          RICOH THETA V以降の機種
+          RICOH THETA Vの機種
       * ファームウェア
           * RICOH THETA V: バージョン 1.00.1 以上
           (ファームウェアの確認およびアップデート方法はこちらです： https://theta360.com/ja/support/manual/s/content/pc/pc_09.html )
@@ -59,8 +57,8 @@
       * 動作確認環境
           Nexus 5X
       * 開発・ビルド環境
-          Android Studio 2.2.3
-          Android SDK (API Level 24)
+          Android Studio 3.5.3
+          Android SDK (API Level 26)
 
 ----------------------------------------
 
@@ -77,23 +75,7 @@
     [ より詳しい情報に関して ]
         同梱されているサンプルアプリケーションのソースやJavadoc、およびWEB上のドキュメントをご確認ください。
 
-        https://developers.theta360.com/ja/docs/
-
-----------------------------------------
-
-* 最新の情報に関して
-
-    最新の情報はWEBサイト「RICOH THETA Developers」にて公開されています。
-
-    https://developers.theta360.com/
-
-----------------------------------------
-
-* トラブルシューティング
-
-    よくある質問についてはこちらのフォーラム上にまとめてあります。
-
-    https://developers.theta360.com/ja/forums/viewforum.php?f=5
+        https://api.ricoh/products/theta-api/
 
 ----------------------------------------
 
@@ -105,9 +87,3 @@
     * Wi-Fiは、Wi-Fi Allianceの商標です。
 
     その他商標は全て、それぞれの所有者に帰属します。
-
-----------------------------------------
-
-* 更新履歴
-
-    2017/09/01 0.1.0 初回リリース
