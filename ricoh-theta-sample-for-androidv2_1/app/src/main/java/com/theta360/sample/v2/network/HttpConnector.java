@@ -589,7 +589,11 @@ public class HttpConnector {
             // send HTTP POST
             input.put("name", "camera.delete");
             JSONObject parameters = new JSONObject();
-            parameters.put("fileUri", deletedFileId);
+
+            JSONArray urls = new JSONArray();
+            urls.put(deletedFileId);
+
+            parameters.put("fileUrls", urls);
             input.put("parameters", parameters);
 
             OutputStream os = postConnection.getOutputStream();
